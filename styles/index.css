@@ -42,7 +42,7 @@ li:hover {
 }
 
 #about {
-    padding-top: 20%;
+    padding: 15%;
     background-color: #232B2B;
 }
 
@@ -67,6 +67,11 @@ a:hover {
     text-decoration: none;
 }
 
+i:hover {
+    transform: scale(2);
+    transition: 0.5s ease-in-out;
+}
+
 #hi {
     border-bottom: 2px solid #E3AE57;
     padding-left: 0px
@@ -86,4 +91,16 @@ a:hover {
 
 .language:hover {
     color: #E3AE57;
+}
+
+@media only screen and (min-width: 700px) {
+    .card {
+        min-width: 300px;
+        margin: 10% auto;
+    }
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: 0.9s ease-in-out;
 }
