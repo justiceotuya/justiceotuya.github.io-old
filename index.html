@@ -7,64 +7,312 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel='icon' href='./images/favicon.ico' type='image/x-icon' />
+    <!-- fontAwesome css -->
     <link rel="stylesheet" <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
         crossorigin="anonymous">
+    <!-- materialize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div style="text-decoration: underline; padding-left:0px ">
+
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#home" class="brand-logo">
+                <img src="./images/Justice Logo.png" width="50%" alt="justice-logo" display="block">
+            </a>
+
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav text-white" id="mobile-demo">
+        <li>
+            <a href="#about">
+                <i class="fas fa-user-secret">&nbsp;About</i>
+            </a>
+        </li>
+        <li>
+            <a href="#portfolio">
+                <i class="fas fa-briefcase">&nbsp;Portfolio</i>
+            </a>
+        </li>
+        <li>
+            <a href="#skills">
+                <i class="fas fa-wrench">&nbsp;Skills</i>
+            </a>
+        </li>
+        <li>
+            <a href="#contact">
+                <i class="fas fa-address-book">&nbsp;Contact</i>
+            </a>
+        </li>
+    </ul>
+
+
+
+    <section id="about">
+        <div class=" container ">
+            <div class="row ">
+                <div id="hi ">
                     Hi
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row ">
                 <div>
-                    My name is Justice Otuya. I am a web Developer, I develop with HTML, Javavascript and can translate design to code using
-                    CSS.
+                    My name is Justice Otuya. I am a Web Developer, I develop with
+                    <span class="language ">HTML</span>,
+                    <span class="language ">Javascript</span> and can translate designs to code using
+                    <span class="language ">CSS</span>.
                 </div>
                 <div>
-                    When not programming, I am watching, playing or talking soccer.
+                    Podcast and Audio Book enthusiast, Soccer Aficionado.
                 </div>
             </div>
 
-            <div class="row">
-                <div class="desktop">
-                    <a href="mailto:jotuya2@gmail.com">email</a>
-                    <a href="http://www.twitter.com/justiceotuya" target="_blank">twitter</a>
-                    <a href="http://www.codepen.io/justiceotuya" target="_blank">codepen</a>
-                    <a href="https://github.com/justiceotuya" target="_blank">github</a>
-                    <a href="https://linkedin.com/in/justiceotuya" target="_blank">linkedin</a>
+            <div class="row ">
 
-                </div>
-
-                <div class="mobile" style="padding-left:0px">
-                    <a href="mailto:jotuya2@gmail.com">
-                        <i class="fas fa-envelope"></i>
+                <div class="left-nav ">
+                    <a href="mailto:jotuya2@gmail.com ">
+                        <i class="fas fa-envelope "></i>
                     </a>
-                    <a href="http://www.twitter.com/justiceotuya" target="_blank">
-                        <i class="fab fa-twitter"></i>
+                    <a href="http://www.twitter.com/justiceotuya " target="_blank ">
+                        <i class="fab fa-twitter "></i>
                     </a>
-                    <a href="http://www.codepen.io/justiceotuya" target="_blank">
-                        <i class="fab fa-codepen"></i>
+                    <a href="http://www.codepen.io/justiceotuya " target="_blank ">
+                        <i class="fab fa-codepen "></i>
                     </a>
                     </a>
-                    <a href="https://github.com/justiceotuya" target="_blank">
-                        <i class="fab fa-github"></i>
+                    <a href="https://github.com/justiceotuya " target="_blank ">
+                        <i class="fab fa-github "></i>
                     </a>
-                    <a href="https://linkedin.com/in/justiceotuya" target="_blank">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://linkedin.com/in/justiceotuya " target="_blank ">
+                        <i class="fab fa-linkedin "></i>
+                    </a>
                 </div>
             </div>
         </div>
-        </div>
+
     </section>
+
+
+
+    <main id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 l12 m12">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/sample-1.png">
+                            <span class="card-title">Card Title</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because
+                                I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">This is a link</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin=" anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js "></script>
+    <script src="./scripts/index.js "></script>
 
 </body>
 

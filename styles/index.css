@@ -1,0 +1,89 @@
+/* orangie #DC3D24  */
+
+/* blackish #232B2B  */
+
+/* whiteish #FFFFFF  */
+
+/* yellowish - #E3AE57 */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #fff;
+    position: relative;
+}
+
+div {
+    margin: 0.4em;
+}
+
+.nav-wrapper,
+nav {
+    background-color: #DC3D24 !important;
+    margin-top: 0px !important
+}
+
+.sidenav {
+    background-color: #E3AE57 !important;
+}
+
+.sidenav li>a {
+    font-size: 24px !important;
+    margin-top: 30%;
+}
+
+.sidenav li>a:hover {
+    background-color: #DC3D24 !important;
+}
+
+li:hover {
+    background-color: #E3AE57 !important;
+}
+
+#about {
+    padding-top: 20%;
+    background-color: #232B2B;
+}
+
+div.left-nav {
+    margin: 0px;
+}
+
+a {
+    padding: 0.5em;
+    margin: 0 auto;
+    text-decoration: none;
+    outline-color: transparent;
+}
+
+i {
+    color: #E3AE57;
+}
+
+i:hover,
+a:hover {
+    color: #DC3D24;
+    text-decoration: none;
+}
+
+#hi {
+    border-bottom: 2px solid #E3AE57;
+    padding-left: 0px
+}
+
+.left-nav {
+    display: block;
+}
+
+.fa-envelope {
+    padding-left: 0px;
+}
+
+.language {
+    color: #DC3D24;
+}
+
+.language:hover {
+    color: #E3AE57;
+}
