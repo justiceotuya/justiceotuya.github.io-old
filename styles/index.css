@@ -14,18 +14,13 @@ body {
     position: relative;
 }
 
-div {
-    margin: 0.4em;
-}
-
 .nav-wrapper,
 nav {
-    background-color: #DC3D24 !important;
-    margin-top: 0px !important
+    background-color: #DC3D24;
 }
 
 .sidenav {
-    background-color: #E3AE57 !important;
+    background-color: #E3AE57;
 }
 
 .sidenav li>a {
@@ -91,50 +86,15 @@ i:hover {
 
 .language:hover {
     color: #E3AE57;
+    cursor: pointer;
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
     transition: 0.6s ease-in, 0.6s ease-out;
 }
 
 h5 {
     text-align: center;
+    margin-top: 10%;
 }
-
-@media (min-width: 992px) {
-    #portfolio .container {
-        /* margin: 0 15%; */
-        /* .container { */
-        width: 100% !important;
-        padding-right: 15px !important;
-        padding-left: 15px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        /* } */
-    }
-    /* .card { */
-    /* width: 250px;
-        margin: 0 2em;
-    }
-    div.card {
-        margin: 1em;
-    } */
-}
-
-@media (min-width: 768px) {
-    #portfolio .container {
-        margin: 0 15%;
-    }
-}
-
-@media (min-width: 576px) {
-    .col-sm-6 {}
-}
-
-/* .col-12 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-} */
