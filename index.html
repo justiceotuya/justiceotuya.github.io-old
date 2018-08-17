@@ -25,30 +25,30 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#home" class="brand-logo">
-                <img src="./images/Justice Logo.png" width="50%" alt="justice-logo" display="block">
-            </a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#about" class="brand-logo">
+                    <img src="./images/Justice Logo.png" width="50%" alt="justice-logo" display="block">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <ul class="sidenav text-white" id="mobile-demo">
         <li>
             <a href="#about">
@@ -60,11 +60,7 @@
                 <i class="fas fa-briefcase">&nbsp;Portfolio</i>
             </a>
         </li>
-        <li>
-            <a href="#skills">
-                <i class="fas fa-wrench">&nbsp;Skills</i>
-            </a>
-        </li>
+
         <li>
             <a href="#contact">
                 <i class="fas fa-address-book">&nbsp;Contact</i>
@@ -81,9 +77,15 @@
             <div class="row text-white">
                 <div>
                     My name is Justice Otuya. I am a Web Developer, I develop with
-                    <span class="language ">HTML</span>,
-                    <span class="language ">Javascript</span> and can translate designs to code using
-                    <span class="language ">CSS</span>.
+                    <span class="language ">HTML</span>, design with
+                    <span class="language ">Figma</span>, translate designs to code using
+                    <span class="language ">CSS</span> and add Interactivity with
+                    <span class="language ">Javascript</span>.
+                    <span class="language ">Github</span> is my tool of choice for version control and i dabble with a bit of
+                    <span class="language">PHP</span> and
+                    <span class="language">
+                        <del class="language">MySql</del>
+                        <span class="language">MySqli</span>
                 </div>
                 <div>
                     Podcast and Audio Book enthusiast, Soccer Aficionado.
@@ -92,120 +94,153 @@
             <div class="row ">
                 <div class="left-nav ">
                     <a href="mailto:jotuya2@gmail.com ">
-                        <i class="fas fa-envelope "></i>
+                        <i class="fas fa-envelope" style=" color:#ea4335 "></i>
                     </a>
                     <a href="http://www.twitter.com/justiceotuya " target="_blank ">
-                        <i class="fab fa-twitter "></i>
+                        <i class="fab fa-twitter" style="color:#1da1f2"></i>
                     </a>
                     <a href="http://www.codepen.io/justiceotuya " target="_blank ">
-                        <i class="fab fa-codepen "></i>
+                        <i class="fab fa-codepen text-white"></i>
                     </a>
                     <a href="https://github.com/justiceotuya " target="_blank ">
-                        <i class="fab fa-github "></i>
+                        <i class="fab fa-github " style="color:#333 "></i>
                     </a>
                     <a href="https://linkedin.com/in/justiceotuya " target="_blank ">
-                        <i class="fab fa-linkedin "></i>
+                        <i class="fab fa-linkedin" style="color: #0077b5"></i>
+                    </a>
+                    <a href="https://facebook.com/justiceotuya " target="_blank ">
+                        <i class="fab fa-facebook" style="color:#3b5998"></i>
+                    </a>
+                    <a href="https://behance.com/in/justiceotuya " target="_blank ">
+                        <i class="fab fa-behance" style="color:#1769ff"></i>
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- <section id="portfolio"> -->
-    <div class="container" id="portfolio">
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/getbarter-login-clone/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="images/getbarter.co.png">
+    <!-- <section id="portfolio "> -->
+    <div class="container " id="portfolio">
+        <div class="row ">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/getbarter-login-clone/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="images/getbarter.co.png " alt="getbarter ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Get Barter</h5>
                         </div>
+                        <div class="card-content hide ">
+                            recreating Getbarter login/signup page using css and html. Javascript was used for interactivity, taking advandage of the
+                            fetch API to get data(country's and phone number) and parsing it in a readble format
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/RandomQuoteGenerator/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372021/randomquote.png">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/RandomQuoteGenerator/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372021/randomquote.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Random Quote Generator</h5>
                         </div>
+                        <div class="card-content hide ">
+                            Random quote generator app uses ajax and jquery to get data from an API and displays random quotes
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="http://justiceotuya.byethost24.com/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372018/guestbook.png">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="http://justiceotuya.byethost24.com/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372018/guestbook.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Guest Book</h5>
                         </div>
+                        <div class="card-content hide ">
+                            Guest Book app written with html and Css, PHP and mySql for the backend. This app performs the basic CRUD functionalty user
+                            can create, add, delete and update data.
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/calculator/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532604576/Calculator.png">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/calculator/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532604576/Calculator.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Calculator</h5>
                         </div>
+                        <div class="card-content hide ">
+                            A simple calculator written with Javascript and inspired by android lollipop 5.1 calculator design
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/project-pixel-art-maker-starter/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372009/pixelartmaker.png">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/project-pixel-art-maker-starter/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372009/pixelartmaker.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Pixel Art maker</h5>
                         </div>
+                        <div class="card-content hide ">
+                            Written with javascript. this app allow users to create designs with colors on pixelated canvas
+                        </div>
                     </div>
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/Todo-App/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372011/todo.png">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/Todo-App/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1532372011/todo.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Todo</h5>
+                            <div class="card-content hide ">
+                                A Todo list also written with Javascript
+                            </div>
                         </div>
                     </div>
                 </a>
             </div>
 
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/wunderlust/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948219/wunderlust.png" alt="wunderlust">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/wunderlust/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948219/wunderlust.png
+                            " alt="wunderlust ">
                         </div>
-                        <div class="card-title black-text">
+                        <div class="card-title black-text ">
                             <h5>Wunderlust</h5>
                         </div>
+                        <div class="card-content hide ">
+                            A picture perfect representation of a dribble design. to emphasise a grasp of translating designs to codes
+                        </div>
+                    </div>
                 </a>
-                </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="https://justiceotuya.github.io/mobile-blog/">
-                    <div class="card hoverable">
-                        <div class="card-image">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948222/mobile-blog-1.png">
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/mobile-blog/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948222/mobile-blog-1.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Mobile blog</h5>
+                        </div>
+                        <div class="card-content hide ">
+                            Another design to code project. this project can be improved with the help of new frameworks like react native.
                         </div>
                     </div>
                 </a>
@@ -221,44 +256,82 @@
                         <div class="card-title black-text ">
                             <h5>Mobile Blog 2</h5>
                         </div>
+                        <div class="card-content hide ">
+                            A followup to the previous project. static pages showing translation of ui/ux drawings to designs
+                        </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-sm-6 col-md-4 ">
-                <a href="volkswagen.surge.sh">
+                <a href="volkswagen.surge.sh ">
                     <div class="card hoverable ">
                         <div class="card-image ">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1534430148/volksvagen.png">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1534430148/volksvagen.png ">
                         </div>
                         <div class="card-title black-text ">
-                            <h5>Calculator</h5>
+                            <h5>Volkswagen</h5>
+                        </div>
+                        <div class="card-content hide ">
+                            Another representation of ui/ux designs with some added interactions and some ideas to improve in =some other time
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-sm-6 col-md-4 ">
-                <a href="https://justiceotuya.github.io/blog/">
+                <a href="https://justiceotuya.github.io/blog/ ">
                     <div class="card hoverable ">
                         <div class="card-image ">
-                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948220/goodbye-photoshop.png">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948220/goodbye-photoshop.png ">
                         </div>
                         <div class="card-title black-text ">
                             <h5>Blog</h5>
                         </div>
+                        <div class="card-content hide ">
+                            A clean blog static page
+                        </div>
                     </div>
                 </a>
             </div>
 
+            <div class="col-sm-6 col-md-4 ">
+                <a href="https://justiceotuya.github.io/immigration-website-redesign/ ">
+                    <div class="card hoverable ">
+                        <div class="card-image ">
+                            <img src="https://res.cloudinary.com/justiceotuya/image/upload/v1533948226/immigration.png
+                            " alt="Immigration ">
+                        </div>
+                        <div class="card-title black-text ">
+                            <h5>Immigration website redesign</h5>
+                        </div>
+                        <div class="card-content hide ">
+                            As part of a team work, this is the translation of a designers immigration design to codes. this aim to reduce load time
+                            by hiding and showing contents when needed instead of relying on servers, page loading is done
+                            client size, reducing load time and increasing user experience
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <code id="contact">
+                <h2 class="white-text center">CONTACT</h2>
+                <i>//this is a function to contact me</i>
+                <br> const contactMe = (socialMedia, mail, number) => {
+                <br> return {
+                <pre>socialMedia: "justiceotuya",</pre>
+                <pre>mail: "jotuya2@gmail.com",</pre>
+                <pre> number: "08130764107"</pre> }
+                <br> }
+            </code>
 
-
-            <section>
-
-            </section>
         </div>
     </div>
     <!-- </section> -->
+
+
+
+
+
 
 
     <!-- jquery -->
